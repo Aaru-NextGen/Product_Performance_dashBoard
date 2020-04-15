@@ -1,0 +1,51 @@
+#social-media-number, #sentiment-graph, #area-graph-numberofcomments {
+    /* border: 5px solid white; */
+    height: 100px;
+}
+
+.social-media-tile {
+    border-radius: 15px;
+    height: 100%;
+}
+#social-media-number.social-media-tile div {
+    height: 100%;
+}
+
+#facebook .social-media-tile {
+    background-color: #3b5999;
+}
+
+#youtube .social-media-tile {
+    background-color: #cd201f;
+}
+
+#instagram .social-media-tile {
+    background-color: #e4405f;
+}
+
+#twitter .social-media-tile {
+    background-color: #55acee;
+}
+
+#linkedin .social-media-tile {
+    background-color: #0077B5;
+}
+
+#amazon .social-media-tile {
+    background-color: #ff9900;
+}
+
+img {
+    width: 100%;
+    height: 35%;
+}
+
+.image {
+    padding-left: 5px;
+    width: 15%;
+    padding-top: 2px;
+}
+
+.col-2 {
+    padding: 2px;
+}
